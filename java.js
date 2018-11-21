@@ -12,7 +12,7 @@
     {id: i++, content: 'JBoss', start: '2001-01-01', group: 2},
     {id: i++, content: 'Websphere', start: '1998-06-01', type: 'box', group: 2, className: 'important'},
     {id: i++, content: 'WildFly', start: '2014-12-01', group: 2},
-    {id: i++, content: 'GraalVM', start: '2018-10-01', group: 2, className: 'orange'},
+    {id: i++, content: 'GraalVM', start: '2018-10-01', group: 2},
 
     {id: i++, content: 'Java 1', start: '1995-01-01', end: '1998-05-01', type: 'range', group: 1, className: 'magenta'},
     {id: i++, content: 'Java 1.2', start: '1998-05-01', end: '2000-05-01', type: 'range', group: 1, className: 'magenta'},
