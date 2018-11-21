@@ -18,7 +18,7 @@
     {id: i++, content: 'Java 1.2', start: '1998-05-01', end: '2000-05-01', type: 'range', group: 1, className: 'magenta'},
     {id: i++, content: 'Java 1.3', start: '2000-06-01', end: '2002-02-01', type: 'range', group: 1, className: 'magenta'},
     {id: i++, content: 'Java 1.4', start: '2002-03-01', end: '2004-09-01', type: 'range', group: 1, className: 'magenta'},
-    {id: i++, content: 'Java 5', start: '2004-10-01', end: '2006-12-01', type: 'range', group: 1, className: 'green important'},
+    {id: i++, content: 'Java 5', start: '2004-10-01', end: '2006-12-01', type: 'range', group: 1, className: 'red'},
     {id: i++, content: 'Java 6', start: '2007-01-01', end: '2011-07-28', type: 'range', group: 1, className: 'magenta'},
     {id: i++, content: 'Java 7', start: '2011-08-01', end: '2014-03-01', type: 'range', group: 1, className: 'magenta'},
     {id: i++, content: 'Java 8', start: '2014-04-01', end: '2017-08-30', type: 'range', group: 1, className: 'magenta important'},
@@ -26,7 +26,7 @@
     {id: i++, content: '10', start: '2018-03-01', end: '2018-09-01', type: 'range', group: 1, className: 'magenta'},
     {id: i++, content: '11', start: '2018-09-01', end: '2018-11-21', type: 'range', group: 1, className: 'magenta'},
 
-    {id: i++, content: 'JSF', start: '2004-05-27', group: 3, className: 'important'},
+    {id: i++, content: 'JSF', start: '2004-05-27', type: 'box', group: 3, className: 'important'},
     {id: i++, content: 'JPA2', start: '2009-12-10', group: 3, className: 'orange important'},
     {id: i++, content: 'EJB2', start: '2001-08-22', group: 3},
     {id: i++, content: 'EJB3', start: '2006-06-01', group: 3},
@@ -50,7 +50,7 @@
 
     {id: i++, content: 'Hibernate', start: '2002-01-01', group: 4, className: 'orange important'},
     {id: i++, content: 'Maven', start: '2004-08-01', group: 4, className: 'orange important'},
-    {id: i++, content: 'Eclipse', start: '2004-06-01', group: 4, className: 'important'},
+    {id: i++, content: 'Eclipse', start: '2004-06-01', type: 'box', group: 4, className: 'important'},
     {id: i++, content: 'Camel', start: '2009-01-19', group: 4},
     {id: i++, content: 'Kafka', start: '2011-01-01', group: 4},
     {id: i++, content: 'Log4j', start: '2000-01-01', type: 'box', group: 4, className: 'important'},

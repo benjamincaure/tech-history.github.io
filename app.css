@@ -60,19 +60,22 @@ h1 span {
 /* custom styles for individual items, load this after vis.css/vis-timeline-graph2d.min.css */
 
 .vis-item.green {
-    background-color: greenyellow;
+    background-color: yellowgreen;
     border: none;
+    color: black;
 }
 
 .vis-item.red {
-    background-color: firebrick;
-    border: none;
+    background-color: red;
+    border-color: red;
     color: white;
+    font-weight: bold;
 }
 
 .important {
     font-size: 1.2em;
     font-weight: bold;
+    border: none!important;
 }
 
 /* create a custom sized dot at the bottom of the yellow item */
