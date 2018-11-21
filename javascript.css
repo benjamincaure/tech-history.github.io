@@ -1,0 +1,31 @@
+.legend {
+    top: 100px!important;
+    left: 230px!important;
+}
+
+.ie {
+    background: url('img/ie.png') no-repeat;
+}
+.netscape {
+    background: url('img/netscape.png') no-repeat;
+}
+.chrome {
+    background: url('img/chrome.png') no-repeat;
+}
+.firefox {
+    background: url('img/firefox.png') no-repeat;
+}
+.safari {
+    background: url('img/safari.png') no-repeat; 
+}
+.flash {
+    background: url('img/flash.png') no-repeat; 
+}
+.browser {
+    background-size: auto 100%;
+    border: 0px;
+    border-bottom: 2px solid blue;
+} 
+.browser .vis-item-content {
+    margin-left: 100px;
+}

@@ -1,0 +1,109 @@
+body, html {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 11pt;
+}
+
+h1 {
+    font-size: 1.2em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+h1 span {
+    margin-bottom: 2px;
+    margin-right: 4px;
+}
+
+/* Caption */
+.legend {
+    border: 1px solid blue;
+    position: absolute;
+    top: 60px;
+    left: 130px;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.legend-item {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.legend-item .vis-item{
+    position: relative;
+    width: 30%;
+    height: 1em;
+    padding: 5px;
+}
+
+.legend-item * {
+    padding: 3px;
+    margin: 3px;
+}
+
+/* remove borders */
+.vis-item.vis-box, .vis-foreground .vis-group, .vis-labelset .vis-label {
+    border: none;
+}
+
+/* custom styles for individual items, load this after vis.css/vis-timeline-graph2d.min.css */
+
+.vis-item.green {
+    background-color: greenyellow;
+    border: none;
+}
+
+.vis-item.red {
+    background-color: firebrick;
+    border: none;
+    color: white;
+}
+
+.important {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* create a custom sized dot at the bottom of the yellow item */
+.vis-item.blue {
+    background-color: steelblue;
+    border: none;
+    color: white;
+}
+
+.vis-item.orange {
+    background-color: gold;
+    border: none;
+}
+.vis-item.vis-selected.orange {
+    /* custom colors for selected orange items */
+    background-color: orange;
+    border: none;
+}
+
+.vis-item.magenta {
+    background-color: magenta;
+    border: none;
+    color: white;
+}
+
+/* our custom classes overrule the styles for selected events,
+    so lets define a new style for the selected events */
+.vis-item.vis-selected {
+    background-color: white;
+    border: none;
+    color: black;
+    box-shadow: 0 0 10px gray;
+}
+
