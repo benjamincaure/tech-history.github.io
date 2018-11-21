@@ -12,15 +12,19 @@
     {id: i++, content: 'JBoss', start: '2001-01-01', group: 2},
     {id: i++, content: 'Websphere', start: '1998-06-01', type: 'box', group: 2, className: 'important'},
     {id: i++, content: 'WildFly', start: '2014-12-01', group: 2},
+    {id: i++, content: 'GraalVM', start: '2018-10-01', group: 2, className: 'orange'},
 
-    {id: i++, content: 'Java 1', start: '1995-01-01', end: '1998-05-01', group: 1, className: 'magenta'},
-    {id: i++, content: 'Java 1.2', start: '1998-05-01', end: '2000-05-01', group: 1, className: 'magenta'},
-    {id: i++, content: 'Java 1.3', start: '2000-06-01', end: '2002-02-01', group: 1, className: 'magenta'},
-    {id: i++, content: 'Java 1.4', start: '2002-03-01', end: '2004-09-01', group: 1, className: 'magenta'},
-    {id: i++, content: 'Java 5', start: '2004-10-01', end: '2006-12-01', group: 1, className: 'green important'},
-    {id: i++, content: 'Java 6', start: '2007-01-01', end: '2011-07-28', group: 1, className: 'magenta'},
-    {id: i++, content: 'Java 7', start: '2011-08-01', end: '2014-03-01', group: 1, className: 'magenta'},
-    {id: i++, content: 'Java 8', start: '2014-04-01', end: '2019-01-01', group: 1, className: 'magenta important'},
+    {id: i++, content: 'Java 1', start: '1995-01-01', end: '1998-05-01', type: 'range', group: 1, className: 'magenta'},
+    {id: i++, content: 'Java 1.2', start: '1998-05-01', end: '2000-05-01', type: 'range', group: 1, className: 'magenta'},
+    {id: i++, content: 'Java 1.3', start: '2000-06-01', end: '2002-02-01', type: 'range', group: 1, className: 'magenta'},
+    {id: i++, content: 'Java 1.4', start: '2002-03-01', end: '2004-09-01', type: 'range', group: 1, className: 'magenta'},
+    {id: i++, content: 'Java 5', start: '2004-10-01', end: '2006-12-01', type: 'range', group: 1, className: 'green important'},
+    {id: i++, content: 'Java 6', start: '2007-01-01', end: '2011-07-28', type: 'range', group: 1, className: 'magenta'},
+    {id: i++, content: 'Java 7', start: '2011-08-01', end: '2014-03-01', type: 'range', group: 1, className: 'magenta'},
+    {id: i++, content: 'Java 8', start: '2014-04-01', end: '2017-08-30', type: 'range', group: 1, className: 'magenta important'},
+    {id: i++, content: '9', start: '2017-09-01', end: '2018-03-01', type: 'range', group: 1, className: 'magenta'},
+    {id: i++, content: '10', start: '2018-03-01', end: '2018-09-01', type: 'range', group: 1, className: 'magenta'},
+    {id: i++, content: '11', start: '2018-09-01', end: '2018-11-21', type: 'range', group: 1, className: 'magenta'},
 
     {id: i++, content: 'JSF', start: '2004-05-27', group: 3, className: 'important'},
     {id: i++, content: 'JPA2', start: '2009-12-10', group: 3, className: 'orange important'},
@@ -69,6 +73,8 @@
     {id: i++, content: 'JRuby', start: '2001-01-01', group: 5},
     {id: i++, content: 'Jython', start: '2001-01-17', group: 5},
     {id: i++, content: 'Kotlin', start: '2016-02-15', group: 5, className: 'orange'},
+
+    {id: i++, content: '', start: '2019-12-31', group: 5},
   ]);
 
   // Groups

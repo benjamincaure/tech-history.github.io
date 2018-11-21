@@ -55,6 +55,12 @@
   {id: i++, content: 'Three.js', start: '2010-01-01', group: 4},
   {id: i++, content: 'Casper (PhantomJS)', start: '2011-01-01', group: 4},
   {id: i++, content: 'D3.js', start: '2011-01-01', group: 4},
+  {id: i++, content: 'Grunt', start: '2012-11-01', group: 4},
+  {id: i++, content: 'Gulp', start: '2013-01-01', group: 4},
+  {id: i++, content: 'Webpack', start: '2014-02-19', group: 4, className: 'orange'},
+  {id: i++, content: 'Browserify', start: '2011-01-01', group: 4},
+
+  {id: i++, content: '', start: '2019-12-31', group: 4},
 
   ]);
 
