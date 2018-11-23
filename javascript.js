@@ -5,7 +5,7 @@
   // Create a DataSet (allows two way data-binding)
   var i = 0;
   var items = new vis.DataSet([
-  {id: i++, content: 'Mosaic', start: '1993-01-01', end: '1993-01-01', group: 1},
+  {id: i++, content: 'Mosaic', start: '1995-01-01', end: '1995-01-01', group: 1},
   {id: i++, content: 'ECMAScript', start: '1997-01-01', group: 1},
   {id: i++, content: 'ES4', start: '2005-01-01', group: 1},
   {id: i++, content: 'Ajax (XHR)', start: '2006-01-01', group: 1},
@@ -21,11 +21,11 @@
   {id: i++, content: 'Reason', start: '2018-01-01', group: 1},  
 
   {id: i++, content: 'Netscape Navigator', start: '1994-01-01', type: 'range', className: 'browser netscape', end: '2000-12-31', group: 2},
-  {id: i++, content: 'Microsoft Internet Explorer', start: '1995-01-01', type: 'range', className: 'browser ie', end: '2015-12-31', group: 2},
-  {id: i++, content: 'Adobe Flash - ActionScript', start: '1997-01-01', end: '2009-12-31', type: 'range', className: 'browser flash ', type: 'range', group: 2},  
-  {id: i++, content: 'Mozilla Firefox', start: '2005-01-01', end: '2015-12-31', type: 'range', className: 'browser firefox', group: 2},
-  {id: i++, content: 'Google Chrome', start: '2010-01-01', end: '2017-12-31', type: 'range', className: 'browser chrome', group: 2},
-  {id: i++, content: 'Safari', start: '2010-01-01', end: '2017-12-31', type: 'range', className: 'browser safari', group: 2},
+  {id: i++, content: 'Internet Explorer', start: '1995-01-01', type: 'range', className: 'browser ie', end: '2015-12-31', group: 2},
+  {id: i++, content: 'Flash (ActionScript)', start: '1997-01-01', end: '2009-12-31', type: 'range', className: 'browser flash ', type: 'range', group: 2},  
+  {id: i++, content: 'Mozilla Firefox', start: '2005-01-01', end: '2018-11-23', type: 'range', className: 'browser firefox', group: 2},
+  {id: i++, content: 'Chrome', start: '2010-01-01', end: '2018-11-23', type: 'range', className: 'browser chrome', group: 2},
+  {id: i++, content: 'Safari', start: '2010-01-01', end: '2018-11-23', type: 'range', className: 'browser safari', group: 2},
 
   {id: i++, content: 'script.aculo.us', start: '2005-01-01', group: 3},
   {id: i++, content: 'Dojo toolkit', start: '2005-01-01', group: 3},
@@ -75,7 +75,7 @@
     { id: 4, content: 'Other (backend, tools)', order: 1 },    
     { id: 3, content: 'Frontend', order: 2 },    
     { id: 1, content: 'Spec/Languages', order: 3 },
-    { id: 2, content: 'Reference Implementation', order: 4 },
+    { id: 2, content: 'Browser influence', order: 4 },
   ]; 
 
   // Configuration for the Timeline
