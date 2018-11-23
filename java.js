@@ -40,7 +40,7 @@
     {id: i++, content: 'Spring Boot', start: '2014-06-01', group: 3, className: 'orange important'},
     {id: i++, content: 'Vaadin', start: '2009-05-20', group: 3},
     {id: i++, content: 'Struts', start: '2000-05-01', type: 'box', group: 3, className: 'important'},
-    {id: i++, content: 'Android', start: '2011-02-09', group: 3, className: 'red'},
+    {id: i++, content: 'Android', start: '2011-02-09', group: 3, className: 'orange important'},
     {id: i++, content: 'GWT', start: '2006-01-08', group: 3},
     {id: i++, content: 'JBoss Seam', start: '2008-01-01', group: 3},
     {id: i++, content: 'Play! Framework', start: '2007-01-01', group: 3},
