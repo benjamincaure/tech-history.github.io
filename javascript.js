@@ -52,7 +52,7 @@
   {id: i++, content: 'Preact', start: '2016-01-01', group: 3, className: 'orange'},
   {id: i++, content: 'Next.js', start: '2016-10-25', group: 3, className: 'orange'},
 
-  {id: i++, content: 'Node.js', start: '2009-01-01', type: 'box', className: 'orange important', group: 4},
+  {id: i++, content: 'Node.js', start: '2009-01-01', type: 'box', className: 'red important', group: 4},
   {id: i++, content: 'Express.js', start: '2010-01-01', type: 'box', className: 'orange', group: 4},
   {id: i++, content: 'Socket.io', start: '2012-01-01', group: 4},
   {id: i++, content: 'Meteor', start: '2012-01-01', group: 4},
