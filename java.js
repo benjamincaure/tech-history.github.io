@@ -81,12 +81,12 @@
     { id: 4, content: 'Tools', order: 1 },    
     { id: 3, content: 'Frameworks/JSR', order: 2 },    
     { id: 5, content: 'Languages', order: 3 },    
-    { id: 2, content: 'App Servers', order: 4 },
-    { id: 1, content: 'Java Versions', order: 5 },
+    { id: 2, content: 'Implementations', order: 4 },
+    { id: 1, content: 'Specifications', order: 5 },
   ]; 
 
   // Configuration for the Timeline
-  var options = {orientation: {axis: 'both', items: 'top'}, type: 'point', zoomable: false};
+  var options = {orientation: {axis: 'both', item: 'top'}, type: 'point', zoomable: false};
 
   // Create a Timeline
   var timeline = new vis.Timeline(container, items, groups, options);

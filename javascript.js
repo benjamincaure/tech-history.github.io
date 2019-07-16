@@ -16,9 +16,11 @@
   {id: i++, content: 'ES2016', start: '2016-01-01', group: 1},
   {id: i++, content: 'ES2017', start: '2017-01-01', group: 1},
   {id: i++, content: 'HTML5', start: '2010-01-01', type: 'box', className: 'red', group: 1},  
-  {id: i++, content: 'Dart', start: '2011-10-10', group: 1},  
-  {id: i++, content: 'Typescript', start: '2012-10-01', className: 'orange', group: 1},  
-  {id: i++, content: 'Reason', start: '2018-01-01', group: 1},  
+
+  {id: i++, content: 'Coffeescript', start: '2010-12-24', group: 5},  
+  {id: i++, content: 'Dart', start: '2011-10-10', group: 5},  
+  {id: i++, content: 'Typescript', start: '2012-10-01', className: 'orange', group: 5},  
+  {id: i++, content: 'Reason', start: '2018-01-01', group: 5},  
 
   {id: i++, content: 'Netscape Navigator', start: '1994-01-01', type: 'range', className: 'browser netscape', end: '2000-12-31', group: 2},
   {id: i++, content: 'Internet Explorer', start: '1995-01-01', type: 'range', className: 'browser ie', end: '2015-12-31', group: 2},
@@ -52,6 +54,8 @@
   {id: i++, content: 'Preact', start: '2016-01-01', group: 3, className: 'orange'},
   {id: i++, content: 'Next.js', start: '2016-10-25', group: 3, className: 'orange'},
 
+  {id: i++, content: 'JSON', start: '2005-12-01', type: 'box', className: 'red important', group: 4},
+  {id: i++, content: 'V8', start: '2008-09-02', type: 'box', className: 'red important', group: 4},
   {id: i++, content: 'Node.js', start: '2009-01-01', type: 'box', className: 'red important', group: 4},
   {id: i++, content: 'Express.js', start: '2010-01-01', type: 'box', className: 'orange', group: 4},
   {id: i++, content: 'Socket.io', start: '2012-01-01', group: 4},
@@ -64,6 +68,7 @@
   {id: i++, content: 'Webpack', start: '2014-02-19', group: 4, className: 'orange'},
   {id: i++, content: 'Browserify', start: '2011-01-01', group: 4},
   {id: i++, content: 'GraphQL', start: '2015-06-01', group: 4, className: 'orange'},
+  {id: i++, content: 'Immutable.js', start: '2014-10-25', group: 4},
 
   {id: i++, content: '', start: '2019-12-31', group: 4},
 
@@ -72,14 +77,15 @@
   // Groups
   // Optional: a field 'className', 'style', 'order', [properties]
   var groups = [
-    { id: 4, content: 'Other (backend, tools)', order: 1 },    
+    { id: 4, content: 'Tools', order: 1 },    
     { id: 3, content: 'Frontend', order: 2 },    
-    { id: 1, content: 'Spec/Languages', order: 3 },
-    { id: 2, content: 'Browser influence', order: 4 },
+    { id: 5, content: 'Languages', order: 3 },
+    { id: 2, content: 'Implementations', order: 4 },
+    { id: 1, content: 'Specifications', order: 5 },
   ]; 
 
   // Configuration for the Timeline
-  var options = {orientation: {axis: 'both', items: 'top'}, type: 'point', zoomable: false};
+  var options = {orientation: {axis: 'both', item: 'top'}, type: 'point', zoomable: false};
 
   // Create a Timeline
   var timeline = new vis.Timeline(container, items, groups, options);
