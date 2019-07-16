@@ -17,12 +17,22 @@ h1 span {
     margin-right: 4px;
 }
 
+/* Bordures */
+.vis-timeline {
+    border: 0px!important;
+}
+
+.vis-panel.vis-bottom, .vis-panel.vis-center, .vis-panel.vis-left, .vis-panel.vis-right, .vis-panel.vis-top {
+    border-left-style: none!important;
+    border-right-style: none!important;
+}
+
 /* Caption */
 .legend {
     border: 1px solid blue;
     position: absolute;
-    top: 60px;
-    left: 130px;
+    top: 100px;
+    left: 200px;
     width: 150px;
     height: 100px;
     background-color: white;
