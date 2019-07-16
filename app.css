@@ -23,7 +23,7 @@ h1 span {
     position: absolute;
     top: 60px;
     left: 130px;
-    width: 230px;
+    width: 150px;
     height: 100px;
     background-color: white;
     z-index: 1;
@@ -42,7 +42,6 @@ h1 span {
 
 .legend-item .vis-item{
     position: relative;
-    width: 30%;
     height: 1em;
     padding: 5px;
 }
