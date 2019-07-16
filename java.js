@@ -22,9 +22,7 @@
     {id: i++, content: 'Java 6', start: '2007-01-01', end: '2011-07-28', type: 'range', group: 1, className: 'magenta'},
     {id: i++, content: 'Java 7', start: '2011-08-01', end: '2014-03-01', type: 'range', group: 1, className: 'magenta'},
     {id: i++, content: 'Java 8', start: '2014-04-01', end: '2017-08-30', type: 'range', group: 1, className: 'red'},
-    {id: i++, content: '9', start: '2017-09-01', end: '2018-03-01', type: 'range', group: 1, className: 'magenta'},
-    {id: i++, content: '10', start: '2018-03-01', end: '2018-09-01', type: 'range', group: 1, className: 'magenta'},
-    {id: i++, content: '11', start: '2018-09-01', end: '2018-11-21', type: 'range', group: 1, className: 'magenta'},
+    {id: i++, content: 'Java 9 10 11', start: '2017-09-01', end: '2018-11-21', type: 'range', group: 1, className: 'magenta'},
 
     {id: i++, content: 'JSF', start: '2004-05-27', type: 'box', group: 3, className: 'important'},
     {id: i++, content: 'JPA2', start: '2009-12-10', group: 3, className: 'orange important'},
