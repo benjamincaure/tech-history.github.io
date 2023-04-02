@@ -1,0 +1,21 @@
+let i = 1;
+export const roles = [
+  { id: i++, content: 'Scientist', start: '1950-01-01', end: '1969-12-31', type: 'range', className: 'roles', group: 4 },
+  { id: i++, content: 'Electronic Engineer', start: '1970-01-01', end: '2000-12-31', type: 'range', className: 'roles', group: 4 },
+  { id: i++, content: 'Programmer', start: '1998-01-01', end: '2009-12-31', type: 'range', className: 'roles', group: 4 },
+  { id: i++, content: 'Analyst', start: '2010-01-01', end: '2018-12-31', type: 'range', className: 'roles', group: 4 },
+  { id: i++, content: 'Software Designer', start: '2010-01-01', end: '2018-12-31', type: 'range', className: 'roles', group: 4 },
+  { id: i++, content: 'Software Architect', start: '2010-01-01', end: '2018-12-31', type: 'range', className: 'roles', group: 4 },
+  { id: i++, content: 'Sysadmin', start: '2018-01-01', end: '2022-12-31', type: 'range', className: 'roles', group: 4 },
+  { id: i++, content: 'DBA', start: '2023-01-01', type: 'range', className: 'roles', group: 4 },
+  { id: i++, content: 'Developer', start: '2023-01-01', type: 'range', className: 'roles', group: 4 },
+  { id: i++, content: 'Frontend developer', start: '2023-01-01', type: 'range', className: 'roles', group: 4 },
+  { id: i++, content: 'Mobile developer', start: '2023-01-01', type: 'range', className: 'roles', group: 4 },
+  { id: i++, content: 'Backend developer', start: '2023-01-01', type: 'range', className: 'roles', group: 4 },
+  { id: i++, content: 'Devops', start: '2023-01-01', type: 'range', className: 'roles', group: 4 },
+  { id: i++, content: 'ML Engineer', start: '2023-01-01', type: 'range', className: 'roles', group: 4 },
+  { id: i++, content: 'Devops', start: '2023-01-01', type: 'range', className: 'roles', group: 4 },
+  { id: i++, content: 'Blockchain developer', start: '2023-01-01', type: 'range', className: 'roles', group: 4 },
+  { id: i++, content: 'Embedded developer', start: '2023-01-01', type: 'range', className: 'roles', group: 4 },
+  { id: i++, content: 'QA Engineer', start: '2023-01-01', type: 'range', className: 'roles', group: 4 },
+];
