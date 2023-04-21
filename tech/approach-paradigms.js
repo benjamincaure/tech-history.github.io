@@ -1,4 +1,4 @@
-let i = 1;
+let i = 400;
 export const approachAndParadigms = [
   { id: i++, content: 'Imperative', start: '1960-01-01', end: '1969-12-31', type: 'range', className: 'paradigm', group: 1 },
   { id: i++, content: 'Procedural', start: '1970-01-01', end: '2000-12-31', type: 'range', className: 'paradigm', group: 1 },

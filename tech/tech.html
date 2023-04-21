@@ -4,23 +4,20 @@
 <head>
   <title>Javascript history</title>
 
-  <meta charset="utf-8">
-  <script src="lib/vis.min.js"></script>
-  <link href="lib/vis.min.css" rel="stylesheet" type="text/css" />
-  <link href="app.css" rel="stylesheet" type="text/css" />
-  <link href="tech.css" rel="stylesheet" type="text/css" />
+  <meta charset="utf-8" />
+  <script src="../lib/vis.min.js"></script>
+  <link href="../lib/vis.min.css" rel="stylesheet" type="text/css">
+  <link href="../app.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
-
+  <script src="roles.js" type="module"></script>
+  <script src="trends.js" type="module"></script>
+  <script src="languages.js" type="module"></script>
+  <script src="approach-paradigms.js" type="module"></script>
 </head>
 
 <body>
-  <div class="legend">
-    <div class="legend-item"><div class="vis-item">Used to be Famous</div></div>
-    <div class="legend-item"><div class="vis-item orange">Still Hot</div></div>
-    <div class="legend-item"><div class="vis-item red">Major Breakthrough</div></div>
-  </div>
-  <div id="tech-history"></div>
-  <script src="tech.js"></script>
+  <div class="tech-history"></div>
 </body>
+<script src="tech.js" type="module"></script>
 
 </html>

@@ -1,4 +1,4 @@
-let i = 1;
+let i = 300;
 export const languages = [
   { id: i++, content: 'FORTRAN - ALGOL - COBOL', start: '1960-01-01', end: '1969-12-31', type: 'range', className: 'languages', group: 2 },
   { id: i++, content: 'FORTRAN - Pascal - COBOL', start: '1970-01-01', end: '1979-12-31', type: 'range', className: 'languages', group: 2 },

@@ -1,25 +1,22 @@
 Back in the days, some technologies were emerging, dying or getting more populare. This is a proposal to get a (subjective) [overview of what happened](https://tech-history.github.io).
 
-References:
+# Titre et résumé conférence
+
+## Titre
+Passé et futur du métier de développeur
+
+## Résumé
+Une carrière de développeur, comment l'envisager malgré les changements technologiques continues ?
+On se rappelera des révolutions passées, avant d'aborder celle en marche, d'une façon non-conventionnelle. 
+
+# Essai 2 article
 
 
-https://fr.wikipedia.org/wiki/Chronologie_des_langages_de_programmation
-
-https://www.blogdumoderateur.com/video-langages-programmation-populaires-1965/
-
-data is beautiful 
-https://www.youtube.com/watch?v=qQXXI5QFUfw
-
-https://roadmap.sh/software-design-architecture
-
-Transition & adapt
-https://dev.to/shieldstring/how-to-effectively-transition-and-adapt-to-new-technologies-as-a-software-engineer-2064
-
+# Essai 1 script conférence
 
 Arriver avec tshirt "Java est mort" et "PHP est lent"
-Attendre les bouuuuh et se présenter en disant "je suis dév javascript"
-- Si ça continue : "On m'a dit que surtout l'important était de se mettre le public dans la poche dès le début"
-- Puis "Il y a des dev PHP ou C# dans la salle ? J'ai peut etre encore quelques copains"
+- Si les bouuuuh sont assez fort se présenter en tant que "dev javascript". Si ça continue : "On m'a dit que surtout l'important était de se mettre le public dans la poche dès le début"
+- Sinon dire qu'on pensait se prendre des tomates à ce stade là. Les dév JS, PHP, et .Net levez la main. Puis "c'est bien ce que je disais ya plus de dev Java"
 
 On peut observer des cycles de 5 ans pour qu'un écosystème émerge et devienne challenger.
 Pour les candidats qui réussissent, le détrônement prendra environ 5 autres années pour rendre le concurrent obsolète.
@@ -40,7 +37,7 @@ Cependant, rester dans son entreprise et voir tout le monde transitionner, peut-
 Que faire si on n'a pas l'opportunité, ou si on n'a pas l'envie, d'apprendre un nouveau métier ?
 Qu'est ce que je dois faire en tant que développeur, après 15 ans de service, après avoir décliné les opportunités pour m'orienter vers le management, vers l'expertise métier, vers l'architecure d'entreprise ?
 
-D'un point de vue carrière, l'ascension dans la hiérarchie est très limitée. Je travaille aujourd'hui dans des équipes dont la moyenne d'âge est 25-30 ans, à 40 l'image qu'on renvoit a dépassée celle d'un dev sénior. Je suis un vieux dev sénior, je ne peux pas prétendre être meilleur que mes collègues trentenaires. Ma plus longue expérience ne m'apporte plus d'arme pour aborder les changements de notre métier. J'ai juste moins de doute en mes capacités.
+D'un point de vue carrière, l'ascension dans la hiérarchie est très limitée. Je travaille aujourd'hui dans des équipes dont la moyenne d'âge est 25-30 ans, à 40 l'image qu'on renvoit a dépassée celle d'un dev sénior. Je suis un "vieux" dev sénior, je ne peux pas prétendre être meilleur que mes collègues "dev sénior" trentenaires. Ma plus longue expérience ne m'apporte plus d'arme pour aborder les changements de notre métier. Je connais juste mieux mes capacités.
 
 Quand j'avais 30 ans, j'étais un tech lead qui devait encore faire ses preuves, puis vers 35 un jeune architecte qui devait encore faire ses preuves. Aujourd'hui je sens que si ma mission le demande, je peux assumer ce rôle. Pourtant je ne le cherche pas. Je n'ai pas l'esprit de compétition d'un leader technique qui a besoin de montrer sa supériorité, sa séniorité. Une organisation plus horizontale, derrière le buzz word signifie ne pas avoir besoin d'une hiérarchie forte, me convient bien. Si je suis plus payé que la personne qui valide mes congés, c'est la vie ... et c'est la preuve que j'ai encore de la valeur. 
 
@@ -67,3 +64,34 @@ Maintenant on va passer aux questions, c'est peut être pas facile d'en sortir c
 Il me reste à vous souhaiter une bonne carrière à tous, éclatez-vous et je vous donnée rdv au Volcamp, dans 10 ans peut-être.
 
 
+
+# Références:
+
+
+https://fr.wikipedia.org/wiki/Chronologie_des_langages_de_programmation
+
+https://www.blogdumoderateur.com/video-langages-programmation-populaires-1965/
+
+data is beautiful 
+https://www.youtube.com/watch?v=qQXXI5QFUfw
+
+https://roadmap.sh/software-design-architecture
+
+Transition & adapt
+https://dev.to/shieldstring/how-to-effectively-transition-and-adapt-to-new-technologies-as-a-software-engineer-2064
+
+Shifting mindset
+https://www.infoq.com/articles/developer-challenges-mindset/
+https://www.forbes.com/sites/forbesagencycouncil/2022/04/08/the-power-of-the-changing-mindset/?sh=71bc461492ec
+
+Wikipedia timeline
+https://en.wikipedia.org/wiki/Timeline_of_computing
+
+Article against no-code
+https://jaylittle.com/post/view/2023/4/low-code-software-development-is-a-lie
+
+Prompt engineer
+https://tinyml.substack.com/p/it-worked-when-i-prompted-it-or-the
+
+Platform engineer
+https://charity.wtf/2022/09/30/the-future-of-ops-is-platform-engineering/
