@@ -3,65 +3,157 @@ Back in the days, some technologies were emerging, dying or getting more popular
 # Titre et résumé conférence
 
 ## Titre
-Passé et futur du métier de développeur
+L'évolution du métier de développeur
 
 ## Résumé
 Une carrière de développeur, comment l'envisager malgré les changements technologiques continues ?
-On se rappelera des révolutions passées, avant d'aborder celle en marche, d'une façon non-conventionnelle. 
+On mentionnera les révolutions passées, qui ont impacter notre profession aussi bien au niveau technologie qu'humain, avant d'envisager la prochaine promise par l'IA et le low-code.
 
 # Essai 2 article
 
+Je voudrais parler ici des développeurs "mainstream", par opposition aux ingénieurs et chercheurs peuplant les grandes entreprises IT étant une population nichée à part.
+De même, dans les grandes entreprises, le métier de développeur peut prendre plusieurs formes que celui de "pure codeur" :
+- DEVOPS
+- ingénieur cloud
+- expert plateforme
+- coding architect
+- etc.
 
-# Essai 1 script conférence
+# La carrière
 
-Arriver avec tshirt "Java est mort" et "PHP est lent"
-- Si les bouuuuh sont assez fort se présenter en tant que "dev javascript". Si ça continue : "On m'a dit que surtout l'important était de se mettre le public dans la poche dès le début"
-- Sinon dire qu'on pensait se prendre des tomates à ce stade là. Les dév JS, PHP, et .Net levez la main. Puis "c'est bien ce que je disais ya plus de dev Java"
+La carrière de développeur a évoluée au cours du temps, ce que nous allons présenter au travers des différentes période.
+## 1960 - 1990 : les analystes programmeurs
 
-On peut observer des cycles de 5 ans pour qu'un écosystème émerge et devienne challenger.
-Pour les candidats qui réussissent, le détrônement prendra environ 5 autres années pour rendre le concurrent obsolète.
+Les analystes-programmeurs du siècle dernier avaient une carrière de technicien, assimilées aux autres carrières administratives de l'entreprise. Avec une carrière typique :
+- 0 à 10 ans : Technicien
+- à partir de 10 ans : Responsable de service
+L'analyste-programmeur avait la plupart du temps, dans les PME en tout cas, la tâche de concevoir et de programmer les applications métiers, ce qui constituait un rôle assez complet. Mainframe, AS400, VAX-VMS - les environnements étaient conçus tout-en-un et les tâches étaient complexes mais dans un univers assez bien défini. 
 
-Des exemples :
-- Flash décolle en 2000 et arrive à son apogée en 2005, comme player principal pour youtube. A ce moment là, Apple, Mozilla et Chrome planchent pour moderniser Javascript. En 2010, Steve Jobs déclare que Flash ne sera plus supporter sur ces appareils. A ce moment là, plus aucun projet de grande ampleur ne verra le jour sur Flash
-- JQuery lancé en 2006, qui a mis 5 ans est devenir la référence pour les interfaces riches, prenant la place de Flash, et qui s'est fait détronné par Angular & co. En 2016, commencer un projet JQuery c'était aberrant.
-- On vie aujourd'hui l'âge d'or des frameworks SPA mais je ne sens pas leur hégémonie durer 5 ans de plus.
+## 1990 - 2010 : le simple Développeur
+
+La bulle Internet et le passage à l'an 2000 ont boosté les besoins. Le métier de "développeur", avec la création de cursus bac+5, est né à ce moment-là. 
+Mais paradoxalement, la bulle de la fin des années 90 a nécessité de convertir de nombreuses personnes non prédestinée à ce métier. De plus, pour conduire des projets d'entreprise de plus grande ampleur, la sous-traitance massive et la délocalisation ont abaissé le niveau de compétence moyen. On a donc associé des rôles non-techniques pour compléter celui de "développeur", terme qui a été créé pour moderniser celui de programmeur.
+
+De 1995 à 2010 environ, la carrière typique était donc :
+- 0 à 5 ans : Développeur
+- 5 à 10 ans : Analyste/concepteur
+- 10 à 20 ans : Chef de projet
+
+## 2010 à 2020 : les carrières techniques
+Puis, la vague Agile supprimant une bonne partie de la hiérarchie dans les équipes. On a relocalisé les développements. Cela a forcé les DRH à ajouter des perspectives aux métiers techniques : l'apparition de "tech lead", d'expert et d'"architecte technique". Mais ces évolutions ne permettaient pas de gravir beaucoup d'échelon, ce qui a raccourci encore la carrière de "simple développeur". 
+Entre 2010 et 2020, cela a donné :
+- 0 à 3 ans : Développeur
+- 3 à 8 ans : Teach lead, expert technique
+- à partir de 8 ans : manager technique, architecte technique
+
+## 2020 à aujourd'hui
+Enfin, la pénurie de développeur a atteint de grandes proportions. Les reconversions se font en masse et n'arrivent toujours pas à compenser la demande. Aujourd'hui, les DRH offrent malgré elles des carrières beaucoup plus longues aux métiers de développeur, celui qui code et qui ne se content pas de manager ou de faire des recommandations.
+L'environnement technique s'est complexifié également et la hiérarchie n'est pas forcément verticale dans une équipe.
+On peut donc facilement avoir aujourd'hui :
+- 0 à 3 ans : Développeur junior
+- 3 à 8 ans : Développeur expérimenté
+- à partir de 8 ans : Développeur sénior
+
+## Les cycles longs des révolutions technologiques
+
+Sur cette fresque, on peut observer des cycles de 10 ans pour qu'un écosystème technologie émerge, devienne leader, puis se fasse progressivement détrôner.
+Par écosystème, j'entends une façon de programmer qui influe sur la conception même des solutions que l'on développe. On le voit aussi sur les langages les plus populaires, qui cèdent leurs places à des langages plus adaptés. 
+
+Des exemples : 
+- Les logiciels monolithes, disponible via des terminaux, remplacées par la micro-informatique et les logiciels client-serveur entre 1990 et 2000. Le C et le C++ remplacent COBOL et FORTRAN.
+- Ces applications client-serveur sont remplacées par des applications web entre 2000 et 2010, avec une domination de Java et PHP
+- Vers 2010, les applications web générées côté serveur, sont remplacées par des frameworks Javascript et mobiles
+- Depuis 2020 environ, Python s'invite dans les 1ères places de la hiérarchie grâce au développement du Big Data et le l'IA
+
+Ces changements se répercutent sur la façon même de développer, ce qui signifie que nous devons nous reformer, sur un temps plus long, à ces nouveaux paradigmes. Le bon côté est que nous avons plus de temps pour voir le train arriver et nous n'avons pas besoin de les anticiper de façon très précoce. On a généralement le temps de saisir l'opportunité d'un nouveau projet pour faire une transition en douceur.
+Les efforts nécessaires pour désapprendre les anciens réflexes et d'apprendre les nouveaux étant très exigeant d'un point de vue personnel, les changements de carrière sont plus fréquents à ce moment-là. Heureusement, il y aura également plus de temps pour continuer de maintenir les développements sur un ancien écosystème, avant sans doute de se réorienter vers un autre métier. Cette situation est la même pour d'autres métiers, dans d'autres secteur, qui permutent sur des temps longs.
+
+## Les cycles de vie courts des frameworks  
+
+Entre chacune de ces révolutions des écosystèmes, de mini-révolutions s'enchainent. 
+On peut les assimiler à l'émergence de frameworks au sein d'un même langage. 
+Leur cycle de vie est beaucoup plus court, ce qui constitue une particularité des métiers d'IT : on a souvent à renouveler notre panoplie d'outils tous les 5 ans !
+
+On peut l'illustrer avec l'histoire récente du développement web : 
+Flash décolle en 2000 et arrive à son apogée vers 2005, où beaucoup le considère incontournable pour développer des interfaces riches.
+Mais à ce moment-là, Apple, Mozilla et Google planchent activement pour moderniser Javascript et remplacer la technologie d'Adobe. En 2010, Steve Jobs déclare que Flash ne sera plus supporter sur ces appareils. Dès lors, quasiment aucun nouveau projet Flash ne verra le jour. Les développeurs web devront réapprendre à développer des interfaces en Javascript. Les incessantes nouveautés d'HTML 5 et CSS 3 rajouteront beaucoup de complexité à la transition.
+
+Dans le même temps, JQuery était devenu le framework Javascript de référence pour les interfaces riches. Les développeurs web étaient experts de cette bibliothèque. Mais en 2016, Angular, React et les autres frameworks SPA l'ont complètement remplacé.
+Il faut réapprendre à développer des interfaces sans manipuler le DOM HTML, mais faire réagir celui-ci aux modifications des données. Là aussi, beaucoup de développeurs chevronnés ont pu être démotivé de devoir réapprendre cette façon de développer. 
+
+Pour les autres, la clé a été la veille technologique.
+
+## Les répercussions sur les compétences du développeur
+
+En effet, la veille technologique permet de percevoir assez tôt l'arrivée de ces nouveaux outils, et donne le temps de s'autoformer, de les mettre en place sur de nouveaux projets. 
+Cette perception doit être suffisamment précoce pour être prêt à saisir les opportunités lorsqu'elles se présentent.
+Le nombre de conférence sur ces sujets le montre.
+La veille technologique est quelque part une source d'angoisse : c'est une tâche chronophage, et pas forcément fructueuse : le risque est de percevoir une révolution trop tôt, alors qu'elle n'arrivera jamais à s'imposer et sera abandonnée.
+
+En 2009, certains développeurs voient en Microsoft Silverlight le vrai remplaçant de Flash. Cependant Microsoft n'arrive pas à imposer son framework dans le milieu du web, qui est abandonné en 2012. 
+Cela a généré beaucoup de déception chez ses adeptes qui ont pu être dégoûtés par ces changements de tendance aussi soudain.
+
+## Son évolution personnelle
+
+Ces caprices de la "communauté", largement influencés par les startups de la Silicon Valley, apportent leur lot d'inquiétudes : moi le développeur, qui doit déjà me tenir à l'écoute et m'autoformer en parallèle de mon travail quotidien, je peux aussi miser sur le mauvais cheval et me retrouver obsolète, en quelques années ? Oui. Ce phénomène est renforcé par les embauches continues de nouveaux diplômés, qui arrivent sur le marché en ayant déjà suivi des cours sur ces nouvelles technologies.
+
+Nous craignons que nos connaissances deviennent obsolètes en même temps que nos frameworks préférés, que nous maîtrisons pourtant si bien.
+Cette crainte conduit parfois à persister dans notre domaine de prédilection, pour rester performant, et pour que notre expertise ne soit pas remise en cause par de jeunes pousses.
+
+La stratégie peut être valable si on est disposé à être souple : au moment où la technologie déclinera, il faudra accepter des concessions pour aller chercher les missions là où il y en a. Beaucoup d'entre nous se mettent à leur compte en tant que spécialiste.
+
+Au contraire, quand on choisit de rester dans son entreprise, on voit que les nouveaux projets migrent sur ces nouvelles technologies. Nos collègues travaillent sur ces nouveaux projets, les uns après les autres. Cela peut être douloureux. Cela peut mener à la conclusion que sa carrière de dev est derrière soi, qu'il faut que je s'éloigner de la technique. Pourquoi pas, si on a l'envie de réorienter vers l'expertise métier et le management. Ou envisager une reconversion complète.
+
+Mais que faire si ce n'est pas le cas ? Que dois-je faire si je n'ai pas d'appétence pour d'autres métiers ? 
+
+## Repartir de zéro, tout réapprendre.
+
+Je vais parler ici un peu de mon cas.
+Je travaille aujourd'hui dans une équipe où la moyenne d'âge est 25-30 ans. A 40, l'image que l'on renvoi a dépassée celle d'un dev sénior ! Je suis un "vieux" dev sénior, et cette expérience supplémentaire ne m'apporte pas un réel avantage. Je ne suis pas plus efficace qu'à 30 ans !
+Je ne suis pas moins efficace non plus : je développe des applications de gestion sur la stack MERN et je suis aussi efficace que mes jeunes collègues. 
+Je dirais que je me connais seulement un peu mieux, j'ai foi en mes capacités. Je sais aussi que je pourrai réapprendre.
+
+Car je saurai toujours :
+- modéliser des données métiers
+- analyser un processus
+- concevoir une interface utilisateur
+- déployer une solution et expliquer comment l'utiliser
+
+Je sais également qu'il faut être attentifs aux nouveaux frameworks, et attendre qu'ils s'imposent avant de les adopter. A ce moment là, je serai de nouveau un débutant, j'aurai la même courbe d'apprentissage qu'un novice.
+Mais au bout de quelques moi, je pourrais de nouveau :
+- modéliser des données métiers
+- analyser un processus
+- concevoir une interface utilisateur
+- déployer une solution et expliquer comment l'utiliser
+Avec autant d'expérience qu'avant.
+
+## L'avenir de notre métier
+
+Pour conclure, parlons de l'avenir : des changements profonds de notre métier arrivent. 
+Ils sont encore très flous mais néanmoins incontestables : l'activité de production du code pourra être progressivement déléguée à des plateformes IA et des outils très élaborés de low-code. On voit aujourd'hui des embryons très prometteurs comme Github Copilot, Power Apps et bien sûr ChatGPT.
+De plus, le développeur est une ressource beaucoup trop chère pour imaginer que les entreprises continueront d'investir des sommes faramineuses pour payer chaque morceau de code nécessaire à la transformation de leur système d'information.
+
+Tout comme la vague du Cloud qui a changé le métier des admins sys, notre propre vague arrive inévitablement.
+
+"On n'aura plus besoin de développeurs !" 
+
+Bien sûr que si, et ce seront ces mêmes développeurs qui deviendront des "prompt engineers" et "platform engineers". Car, au-delà du code, nous saurons toujours :
+- modéliser des données métiers
+- analyser un processus
+- concevoir une interface utilisateur
+- déployer une solution et expliquer comment l'utiliser
+
+Ceux qui le souhaiteront pourront rester dans la partie en acceptant de changer de façon de travailler.
+Le marché du travail sera forcément plus tendu, mais ne deviendra sûrement pas l'impasse que certains prédisent.
+## Conclusion
+
+Vous avez compris que dans ce talk, il y a beaucoup de subjectivité et de raccourcis. 
+Chaque situation personnelle est complexe; cependant, ces idées, cela fait longtemps que je les ai en tête comme beaucoup d'entre vous.
+C'est quelque part un soulagement de pouvoir les partager avec vous. N'hésitez pas à commenter car vos opinions comptent bien sûr énormément.
 
 
-Parler de la crainte des devs que leurs connaissance deviennent obsolètes comme les technos qu'ils maîtrisent.
-Cette crainte conduit parfois à un repli sur son domaine de prédilection, où son expértise est la plus pointue possible et donc repousse la crainte de ne plus être pertinent : "je suis peut-être obsolète sur les frameworks émergeants, mais je suis toujours une pointure sur mon langage de prédilection. Tant que ce sera le cas, je garderai ma valeur"
-
-La stratégie peut être valable si on est disposé à être souple, géographiquement / dans différentes entreprises, au moment où la techno déclinera, il faudra accepter des concessions pour aller chercher les missions là où il y en a.
-
-Cependant, rester dans son entreprise et voir tout le monde transitionner, peut-être très douloureux. La plupart du temps cela mène à la conclusion que "ma carrière de dev est derrière moi, je sens qu'il faut que je m'éloigne de la technique". Cela aussi peut devenir payant si on a l'opportunité de valoriser son expérience métier, ou s'orienter dans le management.
-
-Que faire si on n'a pas l'opportunité, ou si on n'a pas l'envie, d'apprendre un nouveau métier ?
-Qu'est ce que je dois faire en tant que développeur, après 15 ans de service, après avoir décliné les opportunités pour m'orienter vers le management, vers l'expertise métier, vers l'architecure d'entreprise ?
-
-D'un point de vue carrière, l'ascension dans la hiérarchie est très limitée. Je travaille aujourd'hui dans des équipes dont la moyenne d'âge est 25-30 ans, à 40 l'image qu'on renvoit a dépassée celle d'un dev sénior. Je suis un "vieux" dev sénior, je ne peux pas prétendre être meilleur que mes collègues "dev sénior" trentenaires. Ma plus longue expérience ne m'apporte plus d'arme pour aborder les changements de notre métier. Je connais juste mieux mes capacités.
-
-Quand j'avais 30 ans, j'étais un tech lead qui devait encore faire ses preuves, puis vers 35 un jeune architecte qui devait encore faire ses preuves. Aujourd'hui je sens que si ma mission le demande, je peux assumer ce rôle. Pourtant je ne le cherche pas. Je n'ai pas l'esprit de compétition d'un leader technique qui a besoin de montrer sa supériorité, sa séniorité. Une organisation plus horizontale, derrière le buzz word signifie ne pas avoir besoin d'une hiérarchie forte, me convient bien. Si je suis plus payé que la personne qui valide mes congés, c'est la vie ... et c'est la preuve que j'ai encore de la valeur. 
-
-Même si les changements profonds de notre métier, qui sont encore très flous mais néanmoins incontestables, m'apporte son long d'incertitudes et de risque, je sais que je sais travailler. Comme vous, je sais manipuler les données, je sais analyser un besoin, je sais créer une application de toute pièce.
-
-Je sais aussi que mon âge apporte son lot de défaut : un peu largué technologiquement, je distingue là la technologie liée à mon travail, qui est tout le sujet de ce talk et que j'arrive à appréhender, et la technologie de tous les jours qui est liée à la 1ère, car les innovations de l'une nourrissent celles de l'autre.
-Ma maison n'est pas domotisée, je ne suis plus un gamer, je ne suis plus les tendances des derniers réseaux sociaux à la mode.
-Je ne passe plus mon temps à acheter tous les gadgets connectés, je passe mes dimanches à repeindre mon portail et à tailler mes haies, et j'y prend goût ! je deviens gaga quoi.
-
-J'entends par la les 5 prochaines années, comment savoir ce qui se passera après, avec tous les changements qui nous attendent : deviendrons-nous ces "prompt engineers", expert des LLMs, qui créeront 90% de notre très cher code ? Est-ce que nous ne seront pas embaucher plus que pour débugger ce code, l'intégrer, le mettre à jour ?
-N'est-ce pas ce qui est arrivé aux admin sys, qui pouvait architecturer et construire eux-même un data center, et qui aujourd'hui les conçoivent et les maintiennent encore, mais délègues leur constructions aux plateformes Cloud ?
-Comment les sysadmin ont affronté, du point de vue de leur carrière, la vague Devops / Cloudops ?
-
-Quelques années nous séparent de notre propre vague, qui sera peut-être le tsunami annoncé ... il faut tenir compte de plusieurs paramètres : 
-- la capacité technique des IA a aller plus loin que de concevoir un cas simple
-- la disponibilité de ces technologies, notamment pour les petites entreprises, qui ont déjà du mal à quitter leurs fichiers Excel et qui travaillent sur des progiciels de gestions qui ont plus de 20 ans.
-- la capacité des grands groupes à arriver à se transformer, non pas dans un nouveau service d'innovation. 
-On a déjà eu pas mal de création de Digital factory, créer une AI Factory risque de morceler encore plus leur SI.
-
-Beaucoup de questions, beaucoup d'incertain, beaucoup de choses à découvrir... Voilà je finis par radoter et faire de la philo comme un ancien. Maintenant vous avez compris que dans ce talk, il n'y a pas non plus de réponse à tout ceci. Ces idées, cela fait longtemps que je les ai en tête et c'est un soulagement de pouvoir les faire sortir à des gens qui sont de la partie. 
-Certains d'entre vous ont à peine 25 ans et seront un jour confrontés à cela. Si ça a pu vous donner quelques perspectives, vous rassurer un peu tant mieux. Pour les dinosaures de 35 ans, vous voyez qu'il y a un fossile encore plus vieux que vous, ça rassure aussi ! 
-Maintenant on va passer aux questions, c'est peut être pas facile d'en sortir comme ça sur ce sujet, mais n'hésitez pas car vos opinions compte énormément.
-
-Il me reste à vous souhaiter une bonne carrière à tous, éclatez-vous et je vous donnée rdv au Volcamp, dans 10 ans peut-être.
+# Idées pour un talk
+- tshirt "Java est mort" et "PHP est lent"
 
 
 
