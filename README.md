@@ -1,15 +1,47 @@
 Back in the days, some technologies were emerging, dying or getting more populare. This is a proposal to get a (subjective) [overview of what happened](https://tech-history.github.io).
 
-# Titre et résumé conférence
+# ENGLISH VERSION
 
-## Titre
-L'évolution du métier de développeur
+# A Developer Career
 
-## Résumé
+How can you have a career as a developer, despite the continuous technological changes?
+Let's look back to the past revolutions, the game changing ones: how do they have impacted our careers, both on a technological and human level.
+How can we take the next wave, as a senior or junior developer?
+
+This article is about mainstream developers. I can't speak for engineers and researchers that works in big IT companies and universities, and which can have long term vision on their jobs.
+
+# Once Upon a Time, the Developers
+
+Here's a short overview of our recent developer history.
+
+## 1950 - 1970: The Scientists
+
+In the 50, the job was to write machine code, directly in binary, which required a great logical and mathematical knowledge.
+Most of these scientists were women, who handed over the data entry to punched cards operators.
+
+## 1970 - 1990 : The Computer Programers
+
+When high level programming languages were created, skills level became lower and companies were able to hire technicians to create the programs. The projects consisted in basic forms and data manipulation. But it required a good knowledge of the mainframe acquired by the companies. With a good analysis of the company's needs, one could quite easily envisage a complete career as a programmer analyst.
+
+## 1990 - 2010 : Just a Developer
+
+La bulle Internet et le passage à l'an 2000 ont boosté les besoins. Le métier de "développeur", avec la création de cursus bac+5, est né à ce moment-là. 
+Mais paradoxalement, la bulle de la fin des années 90 a nécessité de convertir de nombreuses personnes non prédestinée à ce métier. De plus, pour conduire des projets d'entreprise de plus grande ampleur, la sous-traitance massive et la délocalisation ont abaissé le niveau de compétence moyen. On a donc associé des rôles non-techniques pour compléter celui de "développeur", terme qui a été créé pour moderniser celui de programmeur.
+
+De 1995 à 2010 environ, la carrière typique était donc :
+- 0 à 5 ans : Développeur
+- 5 à 10 ans : Analyste/concepteur
+- 10 à 20 ans : Chef de projet
+
+# FRENCH VERSION
+
+# Une carrière de développeur ?
+
 Une carrière de développeur, comment l'envisager malgré les changements technologiques continues ?
-On mentionnera les révolutions passées, qui ont impacter notre profession aussi bien au niveau technologie qu'humain, avant d'envisager la prochaine promise par l'IA et le low-code.
+Essayons de regarder en arrière : comment les révolutions passées ont-elles impacté notre profession ? Aussi bien au niveau technologique qu'humain ? 
+Comment envisager la prochaine révolution, la prochaine vague, que l'on soit développeur sénior ou jeune diplômé ?
 
-# Essai 2 article
+Je voudrais parler ici des développeurs "mainstream", par opposition aux ingénieurs et chercheurs qui peuplent les grandes entreprises IT, et qui peuvent éventuellement bénéficier de plans de carrière à part.
 
 Je voudrais parler ici des développeurs "mainstream", par opposition aux ingénieurs et chercheurs peuplant les grandes entreprises IT étant une population nichée à part.
 De même, dans les grandes entreprises, le métier de développeur peut prendre plusieurs formes que celui de "pure codeur" :
@@ -19,10 +51,16 @@ De même, dans les grandes entreprises, le métier de développeur peut prendre 
 - coding architect
 - etc.
 
-# La carrière
+# Etre développeur, jadis
 
-La carrière de développeur a évoluée au cours du temps, ce que nous allons présenter au travers des différentes période.
-## 1960 - 1990 : les analystes programmeurs
+La carrière de développeur a évoluée au cours du temps, ce que nous allons voir au travers de différentes périodes.
+
+## 1950 - 1970 : les scientifiques et les opératrices de saisie
+
+Le métier des programmeurs dans les années 50 consistait à écrire du langage machine, en code binaire que l'ordinateur pouvait comprendre directement. Cela nécessitait une grande expertise en mathématiques et en logique. 
+C'est à cette époque que les femmes étaient majoritaires dans la profession, les chercheuses préparant les "bordereaux de saisie" confiées aux opératrices qui se chargeaient de perforer les cartes.
+
+## 1970 - 1990 : les analystes programmeurs
 
 Les analystes-programmeurs du siècle dernier avaient une carrière de technicien, assimilées aux autres carrières administratives de l'entreprise. Avec une carrière typique :
 - 0 à 10 ans : Technicien
@@ -47,17 +85,20 @@ Entre 2010 et 2020, cela a donné :
 - à partir de 8 ans : manager technique, architecte technique
 
 ## 2020 à aujourd'hui
-Enfin, la pénurie de développeur a atteint de grandes proportions. Les reconversions se font en masse et n'arrivent toujours pas à compenser la demande. Aujourd'hui, les DRH offrent malgré elles des carrières beaucoup plus longues aux métiers de développeur, celui qui code et qui ne se content pas de manager ou de faire des recommandations.
+A l'heure actuelle, le nombre de développeurs est largement inférieur à la demande. Même les nombreuses reconversions, l'ouverture de nouveaux cycles universitaires et d'écoles privées n'arrivent toujours pas à couvrir les besoins. Aujourd'hui, les DRH offrent malgré elles des carrières beaucoup plus longues aux métiers de développeur, celui qui code et qui ne se content pas de manager ou de faire des recommandations.
 L'environnement technique s'est complexifié également et la hiérarchie n'est pas forcément verticale dans une équipe.
 On peut donc facilement avoir aujourd'hui :
 - 0 à 3 ans : Développeur junior
 - 3 à 8 ans : Développeur expérimenté
 - à partir de 8 ans : Développeur sénior
 
-## Les cycles longs des révolutions technologiques
+# Les révolutions technologiques
 
-Sur cette fresque, on peut observer des cycles de 10 ans pour qu'un écosystème technologie émerge, devienne leader, puis se fasse progressivement détrôner.
-Par écosystème, j'entends une façon de programmer qui influe sur la conception même des solutions que l'on développe. On le voit aussi sur les langages les plus populaires, qui cèdent leurs places à des langages plus adaptés. 
+## Les cycles longs des écosystèmes
+
+J'entends par "écosystème technologique", une approche de développement construite entièrement autour d'un langage et de ses outils. 
+
+Sur cette fresque, on peut observer des cycles de 10 ans pour qu'un écosystème technologique émerge, devienne leader, puis se fasse progressivement détrôner.
 
 Des exemples : 
 - Les logiciels monolithes, disponible via des terminaux, remplacées par la micro-informatique et les logiciels client-serveur entre 1990 et 2000. Le C et le C++ remplacent COBOL et FORTRAN.
@@ -68,9 +109,9 @@ Des exemples :
 Ces changements se répercutent sur la façon même de développer, ce qui signifie que nous devons nous reformer, sur un temps plus long, à ces nouveaux paradigmes. Le bon côté est que nous avons plus de temps pour voir le train arriver et nous n'avons pas besoin de les anticiper de façon très précoce. On a généralement le temps de saisir l'opportunité d'un nouveau projet pour faire une transition en douceur.
 Les efforts nécessaires pour désapprendre les anciens réflexes et d'apprendre les nouveaux étant très exigeant d'un point de vue personnel, les changements de carrière sont plus fréquents à ce moment-là. Heureusement, il y aura également plus de temps pour continuer de maintenir les développements sur un ancien écosystème, avant sans doute de se réorienter vers un autre métier. Cette situation est la même pour d'autres métiers, dans d'autres secteur, qui permutent sur des temps longs.
 
-## Les cycles de vie courts des frameworks  
+## Les cycles courts des frameworks  
 
-Entre chacune de ces révolutions des écosystèmes, de mini-révolutions s'enchainent. 
+Entre chacune de ces révolutions d'écosystèmes, de mini-révolutions s'enchainent. 
 On peut les assimiler à l'émergence de frameworks au sein d'un même langage. 
 Leur cycle de vie est beaucoup plus court, ce qui constitue une particularité des métiers d'IT : on a souvent à renouveler notre panoplie d'outils tous les 5 ans !
 
@@ -93,7 +134,7 @@ La veille technologique est quelque part une source d'angoisse : c'est une tâch
 En 2009, certains développeurs voient en Microsoft Silverlight le vrai remplaçant de Flash. Cependant Microsoft n'arrive pas à imposer son framework dans le milieu du web, qui est abandonné en 2012. 
 Cela a généré beaucoup de déception chez ses adeptes qui ont pu être dégoûtés par ces changements de tendance aussi soudain.
 
-## Son évolution personnelle
+# Son évolution personnelle
 
 Ces caprices de la "communauté", largement influencés par les startups de la Silicon Valley, apportent leur lot d'inquiétudes : moi le développeur, qui doit déjà me tenir à l'écoute et m'autoformer en parallèle de mon travail quotidien, je peux aussi miser sur le mauvais cheval et me retrouver obsolète, en quelques années ? Oui. Ce phénomène est renforcé par les embauches continues de nouveaux diplômés, qui arrivent sur le marché en ayant déjà suivi des cours sur ces nouvelles technologies.
 
@@ -145,11 +186,12 @@ Bien sûr que si, et ce seront ces mêmes développeurs qui deviendront des "pro
 
 Ceux qui le souhaiteront pourront rester dans la partie en acceptant de changer de façon de travailler.
 Le marché du travail sera forcément plus tendu, mais ne deviendra sûrement pas l'impasse que certains prédisent.
-## Conclusion
+# Conclusion
 
-Vous avez compris que dans ce talk, il y a beaucoup de subjectivité et de raccourcis. 
-Chaque situation personnelle est complexe; cependant, ces idées, cela fait longtemps que je les ai en tête comme beaucoup d'entre vous.
-C'est quelque part un soulagement de pouvoir les partager avec vous. N'hésitez pas à commenter car vos opinions comptent bien sûr énormément.
+Vous avez compris que dans cet article, il y a beaucoup de subjectivité et de raccourcis. 
+Chaque situation personnelle est complexe; cependant, ces idées, cela fait longtemps que je les ai en tête.
+Comme beaucoup d'entre vous j'en suis sûr.
+C'est avec grand plaisir que je le partage ici, en espérant lire vos commentaires car vos opinions comptent énormément.
 
 
 # Idées pour un talk

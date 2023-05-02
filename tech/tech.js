@@ -10,18 +10,28 @@ const WIDTH = 1900;
 
 const trendsBalanceY = getTrendsBalanceY(trends);
 const scatterplot1 = Scatterplot(trends, {
-  x: d => d.start.substring(0, 4),
-  y: d => {
-    const y = Array.from(trendsBalanceY.keys()).findIndex(key => key === d.trend);
-    const offset = trendsBalanceY.get(d.trend).findIndex((trend) => trend.id === d.id);
-    return 10 + (y * 6) + offset;
+  x: trend => trend.start.substring(0, 4),
+  y: trend => {
+    const trendY = Array.from(trendsBalanceY.keys()).findIndex(key1 => key1 === getKey1(trend));
+    const mapSameTrend = trendsBalanceY.get(getKey1(trend));
+    const offsetYear = Array.from(mapSameTrend.keys()).findIndex(key2 => key2 === getKey2(trend));
+    const arraySameYear = mapSameTrend.get(getKey2(trend));
+    const offsetY = arraySameYear.findIndex((t) => t.id === trend.id);
+    let y = ((trendY % 3) * 5) + offsetYear + offsetY;
+    if (trend.content === 'CPU' || trend.content === 'Operating Systems') {
+      console.log(arraySameYear, trendY, offsetYear);
+    }
+    if (y < 1 && trend.content !== '') {
+      y = 1;
+    }
+    return y;
   },
   o: d => d.type === 'L' ? 13 : d.type === 'M' ? 7 : 3,
   title: d => d.content,
   xLabel: "Year",
   yLabel: "Trends",
   stroke: d => {
-    const color = d.group === "system" ? "steelblue" : d.group === "domain" ? "green" : "yellow";
+    const color = d.group === "system" ? "steelblue" : d.group === "domain" ? "yellow" : "green";
     return color;
   },
   width: WIDTH,
@@ -60,8 +70,7 @@ document.addEventListener("DOMContentLoaded", function() {
     .append("svg")
     .attr("width", WIDTH)
     .datum(timeline1Data)
-    .call(timeline1Chart);
-
+    // .call(timeline1Chart);
 });
 
 //
@@ -75,14 +84,26 @@ function groupBy(initialArray, field) {
 }
 
 function getTrendsBalanceY(trends) {
-  return trends.reduce((theMap, trend) => {
-    const key = trend.trend;
-    const array = theMap.get(key);
-    if (!array) {
-      theMap.set(key, [trend]);
+  return trends.reduce((map1, trend) => {
+    const key = getKey1(trend);
+    const map2 = map1.get(key);
+    if (!map2) {
+      map1.set(key, new Map([[getKey2(trend), [trend]]]));
     } else {
-      theMap.set(key, [...array, trend]);
+      const array = map2.get(getKey2(trend));
+      if (!array) {
+        map2.set(getKey2(trend), [trend]);
+      } else {
+        array.push(trend);
+      }
     }
-    return theMap;
+    return map1;
   }, new Map());
+}
+function getKey1(trend) {
+  return trend.trend;
+}
+
+function getKey2(trend) {
+  return 5 * (parseInt(trend.start.substring(0, 4)) % 2);
 }
