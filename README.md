@@ -2,38 +2,189 @@ Back in the days, some technologies were emerging, dying or getting more popular
 
 # ENGLISH VERSION
 
-# A Developer Career
+## The History of the Developer Career
 
 How can you have a career as a developer, despite the continuous technological changes?
-Let's look back to the past revolutions, the game changing ones: how do they have impacted our careers, both on a technological and human level.
+Let's look back to the past revolutions, the game-changing ones: how they have impacted our careers, both on a technological and human level.
 How can we take the next wave, as a senior or junior developer?
 
-This article is about mainstream developers. I can't speak for engineers and researchers that works in big IT companies and universities, and which can have long term vision on their jobs.
+This article is about mainstream developers. I can't speak for engineers and researchers who work in big IT companies and universities, and who can have long term visions for their jobs.
 
-# Once Upon a Time, the Developers
+### Once Upon a Time, the Developers
 
 Here's a short overview of our recent developer history.
 
-## 1950 - 1970: The Scientists
+#### 1950 - 1970: The Scientists
 
-In the 50, the job was to write machine code, directly in binary, which required a great logical and mathematical knowledge.
-Most of these scientists were women, who handed over the data entry to punched cards operators.
+In the 50, the job was to write machine code, directly in binary, which required great logical and mathematical knowledge.
+Most of these scientists were women, who handed over the data entry to punched card operators.
 
-## 1970 - 1990 : The Computer Programers
+#### 1970 - 1990: The Computer Programers
 
-When high level programming languages were created, skills level became lower and companies were able to hire technicians to create the programs. The projects consisted in basic forms and data manipulation. But it required a good knowledge of the mainframe acquired by the companies. With a good analysis of the company's needs, one could quite easily envisage a complete career as a programmer analyst.
+When high-level programming languages were created, skills level became lower and companies were able to hire technicians to create the programs. The projects consisted of basic forms and data manipulation. But it required a good knowledge of the mainframe acquired by the companies. With a good analysis of the company's needs, one could quite easily envisage a complete career as a programmer analyst.
 
-## 1990 - 2010 : Just a Developer
+#### 1990 - 2010: Just a Developer
 
-La bulle Internet et le passage à l'an 2000 ont boosté les besoins. Le métier de "développeur", avec la création de cursus bac+5, est né à ce moment-là. 
-Mais paradoxalement, la bulle de la fin des années 90 a nécessité de convertir de nombreuses personnes non prédestinée à ce métier. De plus, pour conduire des projets d'entreprise de plus grande ampleur, la sous-traitance massive et la délocalisation ont abaissé le niveau de compétence moyen. On a donc associé des rôles non-techniques pour compléter celui de "développeur", terme qui a été créé pour moderniser celui de programmeur.
+Then Dot-com bubble and the year 2000 problem boosted IT workforce needs. The name "developer" was created, with specialized master's degrees. 
+But at the same time, the number of juniors and the massive offshore outsourcing decreased the average skill level. The team was reinforced with non-technical profiles, like analysts, testers, and project managers. Developer became a junior position:
+- 0 to 5 years: developer
+- 5 to 10: analyst, tester
+- 10+: project manager
 
-De 1995 à 2010 environ, la carrière typique était donc :
-- 0 à 5 ans : Développeur
-- 5 à 10 ans : Analyste/concepteur
-- 10 à 20 ans : Chef de projet
+#### 2010 to 2015: The technical careers
+
+During this period, agile methods flatten the hierarchy within the teams. Development was often relocated on-site. HR departments had to give more perspectives to developers and new roles like "tech lead", "technical expert" and "architects" were created. Somehow these new roles have shortened the developer career:
+- 0 to 3 years: developer
+- 3 to 8: tech lead or technical expert
+- 8+: architect, technical manager
+
+#### Since 2015
+
+Since 2015, developers demand has continued to increase. Despite all the new IT schools and developer conversion, it doesn't cover the needs. So HR was forced to promote developers.
+Moreover, the technologies are now even more complex so we can have today real careers as a developer:
+- 0 to 3 years: junior developer
+- 3 to 8 years: middle developer
+- 8+: senior developer
+
+## The Technology Revolutions
+
+### Ecosystem Long Cycles
+
+In this article, "ecosystem" stands for a set of techniques and tools around a specific language. 
+
+On this history fresco, we observe 10-years cycles for an ecosystem to emerge, lead, and be replaced.
+
+Some examples: 
+- monolith softwares, available through a terminal, have been replaced by client-server softwares available on PC, between 1990 and 2000. C and le C++ have replaced COBOL and FORTRAN.
+- then, these client-server softwares were replaced by web apps between 2000 and 2010, led by Java and PHP
+- circa 2010, server-generated web apps have been replaced by Javascript frameworks and mobiles technologies
+- from 2020, Python manages to be one of the most popular languages thanks to the development of Big Data and AI
+
+These revolutions impact the development strategy. This implies, in the long-term, to learn these new paradigms. 
+The bright side is that it leaves us some time to anticipate it and take the opportunity of a new project to train ourselves.
+
+But the effort to unlearn and relearn is challenging at a personal level. Most of the career switches from developer to something else occur during these periods. This is not very different from the changes in other professions.
+
+### Short Cycles of the Frameworks  
+
+Between each of these ecosystem revolutions, minor changes in trends can also occur. For example, framework taking the leadership within the same technology. 
+Their lifecycles being shorter, often 5 years, maintaining skills can be a serious challenge.
+
+We can illustrate it with the history of web development.
+Flash is the most advanced web technology from 2000 to 2005, especially to develop a rich UI.
+But in parallel, Apple, Mozilla, and Google work on modernizing Javascript because they see Adobe's proprietary technology as a threat. 
+In 2010, Steve Jobs announced that Flash will not be supported on its devices. From then on, almost no new Flash project will be launched. 
+Web developers will have to relearn how to develop interfaces in Javascript. The continuous HTML5 and CSS3 innovations added lots of difficulties for developers to transition.
+
+JQuery took the opportunity to steal Flash leadership. Web developers had become experts in working with $ functions. But in 2016, Angular, then React, and other SPA frameworks replaced it completely.
+Web developers had to unlearn to modify directly HTML DOM, but make it react to state mutations. At that time, lots of developers throw in the towel. 
+
+For the other, the key was anticipation and technology watch.
+
+### Technology Watch
+
+Technology watch allows developers to anticipate, so the perception must be early enough to be ready to seize opportunities when they come up.
+The number of conferences on these subjects shows it.
+Technology watch is also a source of concern: it is a time-consuming task, and not necessarily fruitful. The risk is to perceive a potential revolution too early, when it will never make it and will be abandoned.
+
+In 2009, some developers see in Microsoft Silverlight the real replacement for Flash. However, Microsoft does not manage to impose its framework in the web environment, which is abandoned in 2012. 
+This has generated a lot of disappointment among its followers who may have been disgusted by such sudden changes of trend.
+## Our Personal Evolution
+
+These passing fancies of the community, largely led by Silicon Valley startups, bring with them their share of worries.
+«
+  I, the developer, who already have to be aware of everything and train on my own, 
+  can also bet on the wrong horse and find myself obsolete in a few years? 
+»
+
+Yes, this phenomenon is reinforced by the continuous hiring of new graduates, who arrive on the market with an up-to-date technical background.
+
+We fear that our experience will become obsolete along with our favorite frameworks, which we master so well.
+This fear sometimes leads us to stay in our favorite domain, to remain efficient there, so that our expertise is not questioned by juniors.
+
+The strategy can't be valid: technologies compete with each other; we cannot objectively choose the most suitable one if we advocate one of them without knowing the others.
+
+Moreover, we're not alone in our company and new projects will migrate to these new technologies. Our colleagues are working on these new projects, one after the other. This can be painful. It can lead to the conclusion that your career as a dev is behind you and that you have to move away from technology. Why not, if one has the desire to redirect towards business expertise and management? Or consider a complete reconversion.
+
+But what if that's not the case? What should I do if I don't have an appetite for other professions?
+
+### Starting From Scratch, Learning Everything Again
+
+I'm going to talk a little bit about my case here.
+I work today with 25 to 30 years old teammates, and at 40, my image is a "more then senior" dev! This additional experience does not give me a real advantage. I am not more efficient than the 30 years old me!
+I am not less efficient either: I develop on the MERN stack like my young colleagues. 
+I would say that I know myself a little better than them: I know my abilities, my limits. I also know that I can and I will learn again.
+
+I also know that we, developers, will always be able:
+- build a data model
+- analyze a process
+- design a user interface
+- deploy a solution and explain how to use it
+
+I also know that you have to be attentive to new frameworks, and wait for them to become established before adopting them.
+The next time it happens, I will have the same learning curve as a junior.
+But after that, I will be able to :
+- model business data
+- analyze a process
+- design a user interface
+- deploy a solution and explain how to use it
+With as much experience as before.
+
+
+### The Future of Our Business
+
+To conclude, let's talk about the future: winter is coming. 
+We hear the still hazy rumors: the activity of code production could be gradually delegated to AI platforms and highly advanced low-code tools. We are seeing very promising embryos such as Github Copilot, Power Apps, and of course ChatGPT.
+In addition, developers are a resource that is far too expensive to imagine that companies will continue to invest staggering sums to pay for every piece of code needed to transform their information system.
+
+Just like the wave of Cloud Computing changed the sysadmin profession, our own wave is inevitably coming.
+
+> We won't need developers anymore!
+
+Of course, this is a bit of a leap to say that. 
+It might be those very same developers who will be the future "prompt engineers" or "platform engineers" that will create tomorrow softwares.
+Because, beyond the code, we will always know how to :
+- model business data
+- analyze a process
+- design a user interface
+- deploy a solution and explain how to use it
+
+Those who wish to can stay in the game, by accepting a change in the way they work. The job market will inevitably be more competitive, but it will certainly not become the dead end that some predict.
+## Conclusion
+
+This article contains a lot of subjectivity and shortcuts, of course.
+Each personal situation is more complex than that; however, these ideas have been on my mind for a long time.
+As I'm sure many of you have! Hoping to read your comments because your opinions matter tremendously.
+
+
 
 # FRENCH VERSION
+
+# Talk
+
+Titre : Une carrière de développeur, est-ce vraiment raisonnable ?
+
+Résumé : 
+Aujourd'hui tout le monde recrute des développeurs. Mettons les pieds dans le plat : est-ce juste une mode ? Avons-nous un avenir dans la tech ?
+Jetons un coup d'oeil dans le rétro : les évolutions passées peuvent-elles nous permettre d'aborder la révolution devant nous ?
+Comment affronter ces changements incessants d'un point de vue personnel ?
+
+### Plan :
+#### 1. Et dieu créa le développeur
+- 1950 - 1970 : les scientifiques
+- 1970 - 1990 : les analystes programmeurs
+- 1990 - 2010 : le "simple développeur"
+- 2010 à 2020 : les carrières techniques
+#### 2. Les cycles des révolutions technologiques
+- Les cycles longs des langages
+- Les cycles courts des frameworks
+#### 3. Les répercussions sur son évolution personnelles
+- La veille technologique
+- Se réorienter ou repartir de zéro, tout réapprendre
+#### 4. Le début d'une nouvelle ère
+- L'IA et la fin du code
+- Les compétences essentielles du développeur
+
 
 # Une carrière de développeur ?
 
@@ -70,7 +221,7 @@ L'analyste-programmeur avait la plupart du temps, dans les PME en tout cas, la t
 ## 1990 - 2010 : le simple Développeur
 
 La bulle Internet et le passage à l'an 2000 ont boosté les besoins. Le métier de "développeur", avec la création de cursus bac+5, est né à ce moment-là. 
-Mais paradoxalement, la bulle de la fin des années 90 a nécessité de convertir de nombreuses personnes non prédestinée à ce métier. De plus, pour conduire des projets d'entreprise de plus grande ampleur, la sous-traitance massive et la délocalisation ont abaissé le niveau de compétence moyen. On a donc associé des rôles non-techniques pour compléter celui de "développeur", terme qui a été créé pour moderniser celui de programmeur.
+Mais paradoxalement, l'arrivée de nombreux novices, la sous-traitance massive et les délocalisations ont abaissé le niveau de compétence moyen. On a donc associé des rôles non-techniques mais plus éxpérimenté pour compléter celui de "développeur". Analystes et chefs de projet étaient synonymes de progression, le développeur étant seulement le débutant de l'équipe.
 
 De 1995 à 2010 environ, la carrière typique était donc :
 - 0 à 5 ans : Développeur
@@ -112,7 +263,7 @@ Les efforts nécessaires pour désapprendre les anciens réflexes et d'apprendre
 ## Les cycles courts des frameworks  
 
 Entre chacune de ces révolutions d'écosystèmes, de mini-révolutions s'enchainent. 
-On peut les assimiler à l'émergence de frameworks au sein d'un même langage. 
+On peut les assimiler à l'émergence de frameworks au sein d'une même technologie. 
 Leur cycle de vie est beaucoup plus court, ce qui constitue une particularité des métiers d'IT : on a souvent à renouveler notre panoplie d'outils tous les 5 ans !
 
 On peut l'illustrer avec l'histoire récente du développement web : 
